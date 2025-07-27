@@ -1,0 +1,6 @@
+@BACKSERVICES_HostAddress = http://localhost:5169
+
+GET {{BACKSERVICES_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
