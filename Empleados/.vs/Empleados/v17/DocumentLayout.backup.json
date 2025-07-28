@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "E:\\DEV\\PromTest\\PromTest\\Empleados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|e:\\dev\\promtest\\promtest\\empleados\\front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\dbaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\models\\plazaempleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\models\\plazaempleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\models\\plazaempleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\models\\plazaempleadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\clases\\apicall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\clases\\apicall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|e:\\dev\\promtest\\promtest\\empleados\\backservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{66F61575-0233-4918-B90B-32AA9FD7728C}|BACKSERVICES\\BACKSERVICES.csproj|solutionrelative:backservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|E:\\DEV\\PromTest\\PromTest\\Empleados\\front\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B09775-D4B0-46D4-B585-096DEB735848}|FRONT\\FRONT.csproj|solutionrelative:front\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,98 +46,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "responseModel.cs",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Models\\responseModel.cs",
-              "RelativeDocumentMoniker": "BACKSERVICES\\Models\\responseModel.cs",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Models\\responseModel.cs",
-              "RelativeToolTip": "BACKSERVICES\\Models\\responseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:14:21.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "plazaEmpleadoModel.cs",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Models\\plazaEmpleadoModel.cs",
-              "RelativeDocumentMoniker": "BACKSERVICES\\Models\\plazaEmpleadoModel.cs",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Models\\plazaEmpleadoModel.cs",
-              "RelativeToolTip": "BACKSERVICES\\Models\\plazaEmpleadoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T15:03:20.47Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FRONT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FRONT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T05:58:10.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "BACKSERVICES\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Properties\\launchSettings.json",
-              "RelativeToolTip": "BACKSERVICES\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T13:45:39.801Z",
+              "DocumentIndex": 1,
+              "Title": "plazaEmpleadoModel.cs",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Models\\plazaEmpleadoModel.cs",
+              "RelativeDocumentMoniker": "FRONT\\Models\\plazaEmpleadoModel.cs",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Models\\plazaEmpleadoModel.cs",
+              "RelativeToolTip": "FRONT\\Models\\plazaEmpleadoModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T02:58:39.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "FRONT\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "FRONT\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T19:28:30.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FRONT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FRONT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwHIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T19:23:20.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FRONT\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FRONT\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAUwL0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T19:23:12.917Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\appsettings.json",
-              "RelativeDocumentMoniker": "BACKSERVICES\\appsettings.json",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\appsettings.json",
-              "RelativeToolTip": "BACKSERVICES\\appsettings.json",
+              "Title": "ApiCall.cs",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Clases\\ApiCall.cs",
+              "RelativeDocumentMoniker": "FRONT\\Clases\\ApiCall.cs",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\Clases\\ApiCall.cs",
+              "RelativeToolTip": "FRONT\\Clases\\ApiCall.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:56:27.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "FRONT\\App_Start\\BundleConfig.cs",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "FRONT\\App_Start\\BundleConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T13:45:30.296Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:52:29.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Program.cs",
-              "RelativeDocumentMoniker": "BACKSERVICES\\Program.cs",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Program.cs",
-              "RelativeToolTip": "BACKSERVICES\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "FRONT\\App_Start\\FilterConfig.cs",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "FRONT\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T13:40:35.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T18:52:24.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DBAccess.cs",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\DBAccess.cs",
-              "RelativeDocumentMoniker": "BACKSERVICES\\DBAccess.cs",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\DBAccess.cs",
-              "RelativeToolTip": "BACKSERVICES\\DBAccess.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "FRONT\\App_Start\\RouteConfig.cs",
+              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\FRONT\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "FRONT\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T22:34:23.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmpleadoController.cs",
-              "DocumentMoniker": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Controllers\\EmpleadoController.cs",
-              "RelativeDocumentMoniker": "BACKSERVICES\\Controllers\\EmpleadoController.cs",
-              "ToolTip": "E:\\DEV\\PromTest\\PromTest\\Empleados\\BACKSERVICES\\Controllers\\EmpleadoController.cs",
-              "RelativeToolTip": "BACKSERVICES\\Controllers\\EmpleadoController.cs",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAkwDwBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T22:31:20.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T18:52:20.444Z"
             }
           ]
         }

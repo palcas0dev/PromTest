@@ -263,9 +263,10 @@ namespace BACKSERVICES.Controllers
 
                     db.Close();
                     srvResponse.success = true;
-
                     srvResponse.codigo = 200;
                     srvResponse.data = rst;
+                    if (srvResponse.mensaje.Contains("No se puede eliminar")) srvResponse.codigo = 406;
+
                 }
             }
             catch (Exception ex)
@@ -281,7 +282,7 @@ namespace BACKSERVICES.Controllers
 
 
         // GET api/<EmpleadoController>/5
-        [HttpGet("/Subordinado/{id}")]
+        [HttpGet("{id}/Subordinados")]
         public JsonResult GetSubordinado(int id)
         {
             List<plazaEmpleadoModel> rst = new List<plazaEmpleadoModel>();
