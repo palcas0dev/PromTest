@@ -3,6 +3,7 @@ using FRONT.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Mvc;
@@ -12,6 +13,8 @@ namespace FRONT.Controllers
     public class HomeController : Controller
     {
         private readonly ApiCall _apiService = new ApiCall();
+        //private readonly string _apiEmpleadoBaseUrl = "https://localhost:44367/api/Empleado";
+        private readonly string _apiEmpleadoBaseUrl = ConfigurationManager.AppSettings["_apiEmpleadoBaseUrl"].ToString();
         public ActionResult Index()
         {
             
@@ -36,7 +39,7 @@ namespace FRONT.Controllers
         public async Task<JsonResult> obtenerEmpleados() {
             responseModel objSerialized = new responseModel();
             try {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado", "GET", "", null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl, "GET", "", null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
                 objSerialized.data = objEmpleados;
@@ -56,7 +59,7 @@ namespace FRONT.Controllers
             responseModel objSerialized = new responseModel();
             try
             {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado/"+Id.ToString(), "GET", "", null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl + "/" +Id.ToString(), "GET", "", null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
                 objSerialized.data = objEmpleados;
@@ -77,7 +80,7 @@ namespace FRONT.Controllers
             responseModel objSerialized = new responseModel();
             try
             {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado", "POST", JsonConvert.SerializeObject(empleado), null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl, "POST", JsonConvert.SerializeObject(empleado), null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
                 objSerialized.data = objEmpleados;
@@ -98,7 +101,7 @@ namespace FRONT.Controllers
             responseModel objSerialized = new responseModel();
             try
             {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado/"+empleado.codigo.ToString(), "PUT", JsonConvert.SerializeObject(empleado), null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl + "/" +empleado.codigo.ToString(), "PUT", JsonConvert.SerializeObject(empleado), null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
                 objSerialized.data = objEmpleados;
@@ -119,7 +122,7 @@ namespace FRONT.Controllers
             responseModel objSerialized = new responseModel();
             try
             {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado/" + Id.ToString(), "DELETE", "", null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl + "/" + Id.ToString(), "DELETE", "", null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
                 objSerialized.data = objEmpleados;
@@ -140,7 +143,7 @@ namespace FRONT.Controllers
             responseModel objSerialized = new responseModel();
             try
             {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado/"+Id.ToString()+"/Subordinados", "GET", "", null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl + "/" +Id.ToString()+"/Subordinados", "GET", "", null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
                 objSerialized.data = objEmpleados;
@@ -161,7 +164,7 @@ namespace FRONT.Controllers
             responseModel objSerialized = new responseModel();
             try
             {
-                var apiResponse = await _apiService.callApiJsonAsync("https://localhost:44367/api/Empleado", "GET", "", null);
+                var apiResponse = await _apiService.callApiJsonAsync(_apiEmpleadoBaseUrl, "GET", "", null);
                 objSerialized = JsonConvert.DeserializeObject<responseModel>(apiResponse);
                 var objEmpleados = JsonConvert.DeserializeObject<List<PlazaEmpleadoModel>>(objSerialized.data.ToString());
 
